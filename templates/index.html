@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>PIN Login</title>
+</head>
+<body>
+
+<h1>Podaj PIN</h1>
+
+<form method="POST">
+
+<input
+type="password"
+name="pin"
+maxlength="4"
+minlength="4"
+pattern="[0-9]{4}"
+required>
+
+<button>Zaloguj</button>
+
+</form>
+
+<h2>{{ message }}</h2>
+
+</body>
+</html>
